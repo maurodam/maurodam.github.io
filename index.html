@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Damiano Mauro - Portfolio</title>
+
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+
+    <!-- Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.1.2/dist/tailwind.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+
+</head>
+<body class="bg-gray-50 font-sans leading-normal text-gray-800 ">
+    <div class="flex flex-col md:flex-row h-screen">
+        <!-- Sidebar / Left side -->
+        <aside class="md:w-1/2 w-full bg-white flex flex-col items-center justify-center space-y-6 p-8">
+            <img src="assets/images/profile-photo.png"
+            alt="Damiano Mauro" class="rounded-full md:h-72 md:w-72 h-32 w-32 shadow-lg">
+            <h2 class="text-xl">Hello 👋🏻, I am</h2>
+            <h1 class="font-space-mono text-5xl font-bold">Damiano Mauro</h1>
+            
+            <p class="text-xl font-clear-sans text-gray-600">an passionate <span
+                class="bg-gradient-to-r from-blue-500 to-red-500 text-transparent bg-clip-text"> C# software
+                developer</span> from Italy 🇮🇹</p>
+
+                <a href="mailto:ontani-sonori0b@icloud.com" class="bg-black text-white font-clear-sans py-2 px-6 rounded shadow-lg hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-opacity-50 inline-block">
+                    📧 Email me
+                </a>
+                
+                <div class="flex space-x-4">
+                    <!-- Link al profilo LinkedIn -->
+                    <a href="https://www.linkedin.com/in/damianomauro" target="_blank" class="hover:text-gray-700">
+                        <img src="assets/images/linkedin-logo.png" alt="LinkedIn" class="h-8 w-8 rounded shadow-lg" />
+                    </a>
+                    <!-- Link al profilo GitHub -->
+                    <a href="https://github.com/maurodam" target="_blank" class="hover:text-gray-700">
+                        <img src="assets/images/github-logo.png" alt="GitHub" class="h-8 w-8 rounded shadow-lg" /> 
+                    </a>
+                </div>
+                
+        </aside>
+        
+        <!-- Main content / Right side -->
+        <main class="md:w-1/2 w-full flex flex-col items-center justify-center bg-gray-100 dark:bg-black  md:px-20 px-8 py-12">
+            <h2 class="font-space-mono text-5xl font-light mb-6 text-center">About Me 🧑🏻‍💻</h2>
+            <p class="font-clear-sans text-lg text-center mb-8">
+                I am a C# Developer with 8+ years experience in the use of object-oriented languages and MS SQL language. 
+                Driven by curiosity and always on the lookout for updates and new technologies.
+            </p>
+            <div class="flex space-x-4">
+                <a href="assets/resources/cv.pdf" class="bg-black text-white font-clear-sans py-2 px-10 rounded shadow-lg hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-opacity-50">
+                    📄 Resume
+                </a>
+                <button class="bg-black text-white font-clear-sans py-2 px-10 rounded shadow-lg hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-opacity-50">
+                    <img src="assets/images/github-logo.png" alt="Github Logo"
+                            class="inline-block w-4 h-4 mr-2">Github</a>
+                </button>
+            </div>
+
+            <section id="logos" class="container py-12 mb-12 mx-auto">
+                <p class="font-clear-sans font-medium leading-7 text-center text-dark-grey-600 text-lg">Which technologies I use 🚀</p>
+                <div class="scroller overflow-hidden relative" data-speed="slow">
+                    <ul class="tag-list scroller__inner">
+                        <div class="logo-item"><img class="block mx-auto h-16" src="assets/images/code-logo/html-logo.png" alt="html"></div>
+                        <div class="logo-item"><img class="block mx-auto h-16" src="assets/images/code-logo/css-logo.png" alt="css"></div>
+                        <div class="logo-item"><img class="block mx-auto h-16" src="assets/images/code-logo/javascript-logo.svg" alt="javascript"></div>
+                        <div class="logo-item"><img class="block mx-auto h-16" src="assets/images/code-logo/bootstrap-logo.svg" alt="bootstrap"></div>
+                        <div class="logo-item"><img class="block mx-auto h-16" src="assets/images/code-logo/tailwind-logo.png" alt="tailwind"></div>
+                        <div class="logo-item"><img class="block mx-auto h-16" src="assets/images/code-logo/angular-logo.png" alt="angular"></div>
+                        <div class="logo-item"><img class="block mx-auto h-16" src="assets/images/code-logo/typescript-logo.png" alt="typescript"></div>
+                        <div class="logo-item"><img class="block mx-auto h-16" src="assets/images/code-logo/git-logo.png"  alt="git"></div>
+                        <div class="logo-item"><img class="block mx-auto h-16" src="assets/images/code-logo/kendoui-logo.png" alt="kendoui"></div>
+                        <div class="logo-item"><img class="block mx-auto h-16" src="assets/images/code-logo/dotnet-logo.png" alt="dotnet"></div>
+                        <div class="logo-item"><img class="block mx-auto h-16" src="assets/images/code-logo/csharp-logo.svg" alt="csharp"></div>
+                        <div class="logo-item"><img class="block mx-auto h-16" src="assets/images/code-logo/sql-logo.svg" alt="sql"></div>
+                        <div class="logo-item"><img class="block mx-auto h-16" src="assets/images/code-logo/devops-logo.png" alt="devops"></div>
+                        <div class="logo-item"><img class="block mx-auto h-16" src="assets/images/code-logo/npm-logo.png" alt="npm"></div>
+                        <div class="logo-item"><img class="block mx-auto h-16" src="assets/images/code-logo/github-logo.png" alt="github"></div>
+                    </ul>
+                </div>
+                <script src="scripts.js"></script>
+            </section>
+
+
+        </main>
+         
+    </div>
+</body>
+</html>
